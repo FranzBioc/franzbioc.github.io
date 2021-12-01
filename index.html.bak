@@ -23,10 +23,17 @@
     </button>
     <div id="ar-prompt">
         <img src="https://modelviewer.dev/shared-assets/icons/hand.png"> 
+		
     </div>
+<button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
 </model-viewer>
 
-<a rel="ar" href="Cube.usdz"><img src="Cube.png"></a>		
+<a rel="ar" href="Cube.usdz"><img src="Cube.png"></a>
+<button slot="ar-button" id="ar-button">
+        View in your space
+    </button>		
 <!-- Es geht einfach mit dem, dass man die USDZ Datei hinzufügt -->
   </body>
 </html>
